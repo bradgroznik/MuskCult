@@ -1,5 +1,11 @@
 test 123
 
+git --version
+
+git config --global --list # To check the info
+
+git init
+
 ssh -T git@github.com
 
 cd Desktop/MuskCult
@@ -15,9 +21,3 @@ git remote add origin git@github.com:bradgroznik/MuskCult.git
 git remote -v
 
 git push -u origin main
-
-git remote add origin https://github.com/bradgroznik/MuskCult#readme
-$ git add .
-$ git status # Lists all new or modified files to be committed
-$ git commit -m "Second commit"
-$ git push -u origin main
